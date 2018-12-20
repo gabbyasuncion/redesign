@@ -1,0 +1,504 @@
+body {
+	margin:0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 25vw 37.5vw 37.5vw;
+	grid-template-rows: 40vw 19.5vw 19vw 13vw 14vw 6vw 6px;
+	grid-template-areas: "image1";
+}
+.icon {
+	display:none;
+}
+.image1 {
+	background-image: url("https://static1.squarespace.com/static/562fcb20e4b086a77e8a1c2f/t/5aa2ad98652dea8074052295/1520610715706/BEST-BOBA-BUBBLE-TEA-QUEENS-FLUSHING-NYC-CYNTHIACHUNG-TEN-REN-SHINYTEA-COCO-KUNGFUTEA-0019.jpg");
+
+  	min-height: 380px;
+
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+  	position: relative;
+}
+.container {
+	position: absolute;
+  	margin: 2% 20%;
+  	width: auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:55vw;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:95%;
+    position:absolute;
+}
+
+.topnav ul {
+   padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.logo {
+	background-image: url("https://adc3ef35f321fe6e725a-fb8aac3b3bf42afe824f73b606f0aa4c.ssl.cf1.rackcdn.com/tenantlogos/26859.png");
+
+  	max-width: 10vw;
+
+  	background-position: center;
+}
+
+li {
+	display: inline;
+}
+
+.topnav {
+  	overflow: hidden;
+  	padding-right:0;
+  	margin-right: 0;
+  	margin-top: -50px;
+	display: inline-block;
+	font-family: Avenir;
+	color: #fff;
+}
+
+.topnav a {
+  	float: left;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	-webkit-text-stroke: 1px pink;
+}
+#logo{
+    position:absolute;
+    margin-left:2vw;
+    overflow:hidden;
+    width:20vw;
+    object-position: -100px;
+    z-index:;
+    top: 8px;
+    left: 16px;
+    float:left;
+}
+.topnav a:hover {
+  	background-color: #FF69B4;
+  	opacity: 0.5;
+  	color: white;
+}
+.block1 {
+	background-color: #F0EBF4;
+	grid-column: 1/4;
+	grid-row: 1;
+   	grid-area: "image1";
+   	object-position: -200 -300;
+   	object-fit: contain;
+}
+
+.new {
+	font-size: 10pt;
+}
+.sub {
+	font-size: 15pt;
+	text-decoration: none;
+}
+.item {
+	margin-top: 3vw;
+	font-family: Avenir;
+	height: 4vw;
+  	line-height: 2vw;
+}
+.block3 img {
+	margin: 0vw 2vw 2vw 0vw;
+	width: 10vw;
+	display: inline-block;
+	padding: 0;
+	border: #FF81C0 2px solid;
+	float: left;
+}
+.block4 img {
+	margin: 0vw 2vw 2vw 0vw;
+	width: 10vw;
+	display: inline-block;
+	padding: 0;
+	border: #FF81C0 2px solid;
+	float: left;
+}
+.block5 img {
+	margin: 1vw 2vw 1vw 2vw;
+	width: 10vw;
+	display: inline-block;
+	padding: 0;
+	border: #FF81C0 2px solid;
+	float: left;
+}
+.block6 img {
+	margin: 1vw 2vw 1vw 2vw;
+	width: 10vw;
+	display: inline-block;
+	padding: 0;
+	border: #FF81C0 2px solid;
+	float: left;
+}
+.title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 15pt;
+}
+.form-title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 15pt;
+}
+.sect {
+	margin-top: 1vw;
+	margin-left: 2vw;
+}
+.block2 {
+	background-color: #FFFF;
+	display: inline-block;
+	grid-column: 1;
+	grid-row: 2;
+}
+form {
+	font-family: Avenir;
+}
+input {
+	width: 14vw;
+}
+.block3 {
+	background-color: #FFFAC1;
+	opacity: 0.8;
+	display: inline-block;
+	grid-column: 2/4;
+	grid-row: 2;
+}
+.block4 {
+	background-color: #fffcdc;
+	opacity: 0.8;
+	display: inline-block;
+	grid-column: 2/4;
+	grid-row: 3;
+}
+.block5 {
+	background-color: #fffcdc;
+	opacity: 0.8;
+	display: inline-block;
+	grid-column: 2/4;
+	grid-row: 4;
+}
+.block6 {
+	background-color: #fffcdc;
+    opacity: 0.8;
+    display: inline-block;
+    grid-column: 2/4;
+    grid-row: 5;
+}
+.block7 {
+	background-color: pink;
+	opacity: 0.23;
+	grid-column: 1/4;
+	grid-row: 6;
+}
+footer {
+	font-family: Avenir;
+	font-size: 10pt;
+	height: 6vw;
+  	line-height: 6vw;
+  	text-align: center;
+}
+.line {
+	grid-column: 1/4;
+	grid-row: ;
+	height: 6px;
+	width: 100%;
+	background-color: #FF69B4;
+}
+.pink-top {
+	/*position: fixed;*/
+	height: 6px;
+	width: 100%;
+	background-color: #FF69B4;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+
+	body {
+		margin:0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 50vw 50vw;
+		grid-template-rows: 40vw 35vw 30vw 40vw 6vw 6px;
+		grid-template-areas: "image1";
+	}
+	.icon {
+	display:none;
+	}
+	.block1 {
+		grid-column: 1/3;
+		grid-row: 1;
+		grid-area: "image1"; 
+		object-fit: contain;
+	}
+	.new {
+		font-size: 10pt;
+		line-height: 3vw;
+	}
+	.sub {
+	font-size: 15pt;
+	text-decoration: none;
+	}
+	.item {
+	margin-top: 6vw;
+	font-family: Avenir;
+	height: 4vw;
+  	line-height: 2vw;
+	}
+	.title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 18pt;
+	margin-bottom: 0px;
+	margin-top: 0.5vw;
+	}
+	.image1 {
+		background-image: url("https://static1.squarespace.com/static/562fcb20e4b086a77e8a1c2f/t/5aa2ad98652dea8074052295/1520610715706/BEST-BOBA-BUBBLE-TEA-QUEENS-FLUSHING-NYC-CYNTHIACHUNG-TEN-REN-SHINYTEA-COCO-KUNGFUTEA-0019.jpg");
+
+  		min-height: 200px;
+
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+
+  		position: relative;
+	}
+	.form-title {
+		text-align:center;
+	}
+	form {
+		text-align: center;
+	}
+	.block2 {
+		background-color: #fffcdc;
+		grid-column: 1/3;
+		grid-row: 4;
+	}
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:26vw;
+    position:relative;
+    height:0;
+	}
+	.map-responsive iframe{
+    height:100%;
+    width:95%;
+    position:center;
+}
+	.block3 img {
+		width: 24vw;
+		display: inline-block;
+		padding: 0;
+		border: #FF81C0 2px solid;
+	}
+	.block3 {
+		grid-column: 1;
+		grid-row: 2;
+		background-color: #FFFAC1;
+	}
+	.block4 img {
+		margin: 0vw 2vw 2vw 18px;
+		width: 24vw;
+		display: inline-block;
+		border: #FF81C0 2px solid;
+		float: right;
+	}
+	.block4 .new {
+		font-size: 10pt;
+		line-height: 3vw;
+		text-align: right;
+	}
+	.block4 .sub {
+	font-size: 15pt;
+	text-decoration: none;
+	text-align: right;
+	}
+	.block4 .title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 18pt;
+	text-align: right;
+	margin-right: 24px;
+	}
+	.block4 {
+		grid-column: 2;
+		grid-row: 2;
+		background-color: #FFFAC1;
+		
+	}
+	.block5 img {
+		width: 24vw;
+		display: inline-block;
+		border: #FF81C0 2px solid;
+
+	}
+	.block5 {
+		grid-column: 1;
+		grid-row: 3;
+		background-color: #FFFAC1;
+	}
+	.block6 img {
+		width: 24vw;
+		display: inline-block;
+		padding: 0;
+		border: #FF81C0 2px solid;
+		float:right;
+	}
+	.block6 .new {
+		font-size: 10pt;
+		line-height: 3vw;
+		text-align: right;
+	}
+	.block6 .sub {
+	font-size: 15pt;
+	text-decoration: none;
+	text-align: right;
+	}
+	.block6 .title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 18pt;
+	text-align: right;
+	margin-right: 24px;
+	}
+	.block6 {
+		grid-column: 2;
+		grid-row: 3;
+		background-color: #FFFAC1;
+	}
+	.block7 {
+		grid-column: 1/3;
+		grid-row: 5;
+	}
+	.line {
+		grid-column: 1/3;
+		grid-row: 6;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		margin:0;
+		padding: 0;
+		display: grid;
+		grid-column: 100vw;
+		grid-template-rows: 30vw 38vw 38vw 30vw 33vw 42vw 6vw 6px;
+		grid-template-areas: "image1";
+	}
+	.icon {
+		display:block;
+		width:5vw;
+		position:absolute;
+		left:0;
+		top:7px;
+	}
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+	img.logo {
+		display:none;
+	}
+	.block1 {
+		grid-row: 1;
+		grid-column: 1;
+	}
+	.block2 {
+		grid-row: 6;
+		grid-column: 1;
+	}
+	.block3 {
+		grid-row: 2;
+		grid-column: 1;
+	}
+
+	.block4 {
+		grid-row: 3;
+		grid-column: 1;
+	}
+	.block4 .new {
+		font-size: 10pt;
+		line-height: 3vw;
+	}
+	.block4 .sub {
+	font-size: 12pt;
+	text-decoration: none;
+	}
+	.block4 .title {
+	font-family: Avenir;
+	color: #FF69B4;
+	text-decoration: bold;
+	font-size: 18pt;
+	}
+	.block5 img {
+		width: 24vw;
+		display: inline-block;
+		margin-top: 3vw;
+		border: #FF81C0 2px solid;
+		float:right;
+	}
+	.block5 .new {
+		font-size: 10pt;
+		line-height: 3vw;
+		text-align: right;
+	}
+	.block5 .sub {
+	font-size: 12pt;
+	text-decoration: none;
+	text-align: right;
+	}
+	.block5 {
+		grid-row: 4;
+		grid-column: 1;
+	}
+	.block6 img {
+		width: 24vw;
+		display: inline-block;
+		margin-top: 3vw;
+		border: #FF81C0 2px solid;
+		float:right;
+	}
+	.block .sub {
+	font-size: 12pt;
+	text-decoration: none;
+	}
+	.block6 {
+		grid-row: 5;
+		grid-column: 1;
+	}
+	.block7 {
+		grid-row: 7;
+		grid-column: 1;
+	}
+	.line {
+		grid-row: 8;
+		grid-column: 1;
+	}
+}
+
+
+
